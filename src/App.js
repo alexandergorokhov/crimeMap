@@ -87,7 +87,7 @@ const App = () => {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyCz-0mITWUjgKBb1gXIR0ti4wVaL2ukUdU" libraries={['visualization']}>
+    <LoadScript googleMapsApiKey="API_KEY" libraries={['visualization']}>
       <div className="container">
         <div className="map-container">
           <GoogleMap
